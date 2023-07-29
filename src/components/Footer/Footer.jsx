@@ -26,7 +26,7 @@ const Footer = () => {
             modal ? "justify-between " : "justify-between w-screen"
           } `}
         >
-          <p className="2xl:text-3xl text-2xl text-purple-100">
+          <p className="2xl:text-3xl text-2xl-bold text-purple-100">
             Already bought the ticket? Check availability now!
           </p>
           {mobile && (
