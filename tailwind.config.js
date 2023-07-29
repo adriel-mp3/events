@@ -16,6 +16,60 @@ module.exports = {
       "purple-100": "rgba(71, 69, 183, 1)",
       "purple-80": "#3937B7",
     },
+    fontSize: {
+      base: [
+        "1rem",
+        {
+          fontWeight: 400,
+        },
+      ],
+      "base-bold": [
+        "1rem",
+        {
+          fontWeight: 500,
+        },
+      ],
+      'xl-bold': [
+        "1.25rem",
+        {
+          fontWeight: 500,
+          lineHeight: "normal",
+          letterSpacing: "0em",
+        },
+      ],
+      "2xl-bold": [
+        "1.5rem",
+        {
+          fontWeight: 500,
+          lineHeight: "normal",
+          letterSpacing: "0em",
+        },
+      ],
+      "3xl": [
+        "1.75rem",
+        {
+          fontWeight: 500,
+          lineHeight: "4.5rem",
+          letterSpacing: "0em",
+        },
+      ],
+      "4xl-semibold": [
+        "2rem",
+        {
+          fontWeight: 600,
+          lineHeight: "normal",
+          letterSpacing: "0.04em",
+        },
+      ],
+      "7xl": [
+        "4rem",
+        {
+          fontWeight: 600,
+          lineHeight: "4.5rem",
+          letterSpacing: "0em",
+        },
+      ],
+    },
     extend: {
       backgroundImage: {
         "hero-pattern": "url('./assets/images/background.jpg')",
