@@ -32,7 +32,7 @@ const Header = () => {
       <header className="flex max-w-[1600px] justify-between py-8 mx-auto mb-16 px-10">
         <div className="flex items-center gap-4">
           <img src={logo} alt="Events logo" />
-          <span className="flex items-center gap-4 text-2xl text-white-100 font-medium before:content-[''] before:block before:w-[0.25rem] before:h-8 before:bg-white-100">
+          <span className="flex items-center gap-4 text-2xl-bold text-white-100  before:content-[''] before:block before:w-[0.25rem] before:h-8 before:bg-white-100">
             Events
           </span>
         </div>
@@ -50,7 +50,7 @@ const Header = () => {
             <div className="flex items-center gap-4 w-screen justify-between">
               <div className="flex items-center gap-4 px-10">
                 <img src={logo} alt="Events logo" />
-                <span className="flex items-center gap-4 text-2xl text-white-100 font-medium before:content-[''] before:block before:w-[0.25rem] before:h-8 before:bg-white-100">
+                <span className="flex items-center gap-4 2xl-bold text-white-100 font-medium before:content-[''] before:block before:w-[0.25rem] before:h-8 before:bg-white-100">
                   Menu
                 </span>
               </div>
@@ -60,7 +60,7 @@ const Header = () => {
             </div>
           )}
           <ul
-            className="flex lg:flex-row flex-col gap-4 lg:items-center text-base text-white-100 font-medium lg:gap-6"
+            className="flex lg:flex-row flex-col gap-4 lg:items-center text-base-bold text-white-100 font-medium lg:gap-6"
             onClick={handleClickMenu}
           >
             <li>

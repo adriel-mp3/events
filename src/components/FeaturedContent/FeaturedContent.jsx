@@ -8,10 +8,10 @@ const FeaturedContent = () => {
         <br /> a bright future <br />
         with technology
       </h1>
-      <span className="text-yellow mb-2 block 2xl:text-2xl font-medium">
+      <span className="text-yellow mb-2 block 2xl:text-2xl-bold">
         Monday February 22, 2023 - 13:00hrs
       </span>
-      <p className="text-gray font-medium max-w-md">
+      <p className="text-gray text-base-bold max-w-md">
         Unlock boundless potential with technology at our cutting-edge event!
         Join us to shape a brighter future filled with innovation and growth
       </p>
