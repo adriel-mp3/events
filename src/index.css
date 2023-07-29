@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .main-bg {
+    background: linear-gradient(74deg, #3937b7 60%, rgba(57, 55, 183, 0) 100%),
+      url("../src/assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
