@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* criar classe container, classe grid padrão do projeto */
 @layer components {
   .main-bg {
     background: linear-gradient(74deg, #3937b7 60%, rgba(57, 55, 183, 0) 100%),
@@ -15,5 +14,9 @@
 
   .container {
     @apply flex max-w-[1600px] px-10 mx-auto;
+  }
+
+  .logo-separator {
+    @apply before:content-[''] before:block before:w-[0.25rem] before:h-8 before:bg-white-100;
   }
 }
