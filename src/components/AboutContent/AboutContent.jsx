@@ -1,12 +1,12 @@
 import React from "react";
-import aboutData from "../../utils/aboutItems";
+import aboutCardsData from "../../utils/aboutCardsData";
 import AboutCard from "./AboutItem";
 
 const AboutCards = () => {
   return (
     <section className="overflow-x-auto ">
       <ul className="flex content-center 2xl:mb-0 mb-10 2xl:gap-0 gap-8 ">
-        {aboutData.map((data) => (
+        {aboutCardsData.map((data) => (
           <AboutCard about={data} key={data.title} />
         ))}
       </ul>
