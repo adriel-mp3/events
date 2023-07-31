@@ -2,7 +2,7 @@ import hobbies from "../assets/images/hobbies.svg";
 import location from "../assets/images/location.svg";
 import presentation from "../assets/images/presentation.svg";
 
-const aboutData = [
+const aboutCardsData = [
   {
     style: "2xl:px-[2.5rem] 2xl:py-[4.38rem] 2xl:my-8",
     img: location,
@@ -26,4 +26,4 @@ const aboutData = [
   },
 ];
 
-export default aboutData;
+export default aboutCardsData;
