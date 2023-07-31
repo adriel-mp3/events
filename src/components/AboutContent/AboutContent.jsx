@@ -1,25 +1,17 @@
 import React from "react";
-import aboutData from "../../helper/aboutItems";
-import AboutItem from "./AboutItem";
+import aboutData from "../../utils/aboutItems";
+import AboutCard from "./AboutItem";
 
-const AboutContent = () => {
+const AboutCards = () => {
   return (
     <section className="overflow-x-auto ">
       <ul className="flex content-center 2xl:mb-0 mb-10 2xl:gap-0 gap-8 ">
-        {aboutData.map((card) => (
-          <div key={card.title}>
-            <AboutItem
-              img={card.img}
-              alt={card.alt}
-              title={card.title}
-              text={card.text}
-              style={card.style}
-            />
-          </div>
+        {aboutData.map((data) => (
+          <AboutCard about={data} key={data.title} />
         ))}
       </ul>
     </section>
   );
 };
 
-export default AboutContent;
+export default AboutCards;
