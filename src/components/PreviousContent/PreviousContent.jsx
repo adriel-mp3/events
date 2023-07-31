@@ -1,18 +1,12 @@
 import React from "react";
-import PreviousItem from "./PreviousItem";
-import previousItemsData from "../../helper/previousItems";
+import previousCardsData from "../../utils/previousCardsData";
+import PreviousCard from "./PreviousCard";
 
 const PreviousContent = () => {
   return (
     <section className="flex justify-between gap-8 overflow-x-auto mb-10">
-      {previousItemsData.map((item) => (
-        <PreviousItem
-          key={item.event}
-          label={item.label}
-          event={item.event}
-          img={item.img}
-          alt={item.alt}
-        />
+      {previousCardsData.map((card) => (
+        <PreviousCard data={card} />
       ))}
     </section>
   );

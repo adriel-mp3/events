@@ -1,17 +1,17 @@
 import React from "react";
 
-const PreviousItem = ({ label, event, img, alt }) => {
+const PreviousCard = ({ data }) => {
   return (
     <div className="min-w-[360px]">
       <h2 className="text-center text-4xl-semibold mb-4 text-yellow">
-        {label}
+        {data.label}
       </h2>
-      <img src={img} alt={alt} />
+      <img src={data.img} alt={data.alt} />
       <p className="bg-yellow text-purple-100 text-center py-4 text-xl-bold">
-        {event}
+        {data.event}
       </p>
     </div>
   );
 };
 
-export default PreviousItem;
+export default PreviousCard;
