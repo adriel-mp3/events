@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../Button/Button";
-import ModalLogin from "../Modal/ModalLogin";
+import Button from "../../components/Button/Button";
+import ModalLogin from "../../components/Modal/ModalLogin";
 import useMedia from "../../hooks/useMedia";
 import useToggle from "../../hooks/useToggle";
-import Logo from "./Logo";
+import Logo from "../../components/Logo/Logo";
 import MenuHamburger from "./MenuHamburger";
 import NavMenu from "./NavMenu";
 
