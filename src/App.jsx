@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import PreviousEvents from "./pages/PreviousEvents";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "./layout/Header/Header";
+import Footer from "./layout/Footer/Footer";
 
 function App() {
   return (
