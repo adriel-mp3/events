@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <>
       <header className="container justify-between py-8 mb-16">
-        <Logo isOpen={menu} />
+        <Logo label={menu ? 'Menu' : 'Events'} />
         <MenuHamburger onClick={toggleMenuMobile} isOpen={menu} />
         <NavMenu isMenuOpen={menu} toggleMenu={toggleMenuMobile}>
           <Button color={"bg-red"} onClick={toggleGetTicketModal}>
