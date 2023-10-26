@@ -1,8 +1,8 @@
 import React from "react";
 import Input from "../Input/Input";
-import Button from "../Button/Button";
+import { Button } from "../Button/Button";
 
-const ModalLogin = ({ modal, setModal }) => {
+export const ModalLogin = ({ modal, setModal }) => {
   function handleClickOutside(e) {
     const { target, currentTarget } = e;
     e.preventDefault();
@@ -25,10 +25,9 @@ const ModalLogin = ({ modal, setModal }) => {
             <Input label={"Password:*"} placeholder={"12345...."} />
             <Button style="bg-purple-100 mt-4">Submit</Button>
           </form>
+          <Button color="bg-purple-80" size="full">Submit</Button>
         </div>
       </div>
     )
   );
 };
-
-export default ModalLogin;
