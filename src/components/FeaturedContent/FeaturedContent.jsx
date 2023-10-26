@@ -1,6 +1,7 @@
 import React from "react";
 
-const FeaturedContent = () => {
+export const FeaturedContent = () => {
+
   return (
     <section className="relative after:bg-arrow after:w-[100px] after:h-[100px] after:absolute after:top-[-30px] after:left-0  before:bg-arrow before:w-[100px] before:h-[100px] before:absolute before:bottom-0 before:right-0 before:rotate-180 p-8">
       <h1 className="2xl:text-7xl lg:text-[3.2rem] md:text-7xl sm:text-5xl text-4xl text-white-100 font-semibold xl:leading-tight lg:leading-tight md:leading-tight mb-2">
@@ -19,4 +20,3 @@ const FeaturedContent = () => {
   );
 };
 
-export default FeaturedContent;
