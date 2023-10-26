@@ -3,7 +3,7 @@ import science from "../assets/images/science.jpg";
 import hard from "../assets/images/hard.jpg";
 import networking from "../assets/images/networking.jpg";
 
-const previousCardsData = [
+export const previousCardsData = [
   {
     label: "2019",
     event: "Networking Project",
@@ -30,4 +30,3 @@ const previousCardsData = [
   },
 ];
 
-export default previousCardsData;
