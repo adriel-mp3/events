@@ -1,14 +1,18 @@
-import React from "react";
+const sizes = {
+  full: 'w-full',
+  default: 'w-[212px]'
+}
 
-const Button = ({ children, color, onClick }) => {
+export const Button = ({ children, color, onClick, size = 'default' }) => {
   return (
     <button
-      className={`text-center py-2 px-6 text-white-100 text-base-bold ${color}`}
+      className={`text-center py-2 px-6 text-white-100 text-base-bold 
+        ${color} 
+        ${sizes[size]}
+      `}
       onClick={onClick}
     >
       {children}
     </button>
   );
 };
-
-export default Button;
