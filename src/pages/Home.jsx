@@ -1,12 +1,14 @@
-import React from "react";
-import FeaturedContent from "../components/FeaturedContent/FeaturedContent";
-import Thumb from "../components/Thumb/Thumb";
+import { Hero } from "../components/Hero/index";
+import { Thumb } from "../components/Thumb/index";
+
+import thumb from "../assets/thumb.jpg";
 
 const Home = () => {
+
   return (
     <main className="container grid lg:grid-cols-2 md:grid-cols-1 justify-items-start gap-20 xl:mb-0 sm:mb-8">
-      <FeaturedContent />
-      <Thumb />
+      <Hero />
+      <Thumb thumb={thumb} />
     </main>
   );
 };

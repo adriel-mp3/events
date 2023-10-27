@@ -1,7 +1,7 @@
 import React from "react";
-import open from "../../assets/images/modal-arrow.svg";
+import open from "../../../assets/modal-arrow.svg";
 
-const FooterFormButton = ({ isOpen, onClick }) => {
+export const FormButton = ({ isOpen, onClick }) => {
   return (
     <button className="block lg:hidden">
       <img
@@ -14,4 +14,3 @@ const FooterFormButton = ({ isOpen, onClick }) => {
   );
 };
 
-export default FooterFormButton;

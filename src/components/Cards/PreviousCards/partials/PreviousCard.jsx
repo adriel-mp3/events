@@ -1,6 +1,4 @@
-import React from "react";
-
-const PreviousCard = ({ data }) => {
+export const PreviousCard = ({ data }) => {
   return (
     <div className="min-w-[360px]">
       <h2 className="text-center text-4xl-semibold mb-4 text-yellow">
@@ -13,5 +11,3 @@ const PreviousCard = ({ data }) => {
     </div>
   );
 };
-
-export default PreviousCard;

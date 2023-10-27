@@ -1,6 +1,6 @@
 import React from "react";
-import Input from "../Input/Input";
-import { Button } from "../Button/Button";
+import { Input } from "../../Input";
+import { Button } from "../../Button";
 
 export const ModalLogin = ({ modal, setModal }) => {
   function handleClickOutside(e) {

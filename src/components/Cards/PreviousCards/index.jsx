@@ -1,8 +1,6 @@
-import React from "react";
-import previousCardsData from "../../utils/previousCardsData";
-import PreviousCard from "./PreviousCard";
+import { PreviousCard } from "./partials/PreviousCard";
 
-const PreviousContent = () => {
+export const PreviousCards = ({ previousCardsData }) => {
   return (
     <section className="flex justify-between gap-8 overflow-x-auto mb-10">
       {previousCardsData.map((card) => (
@@ -11,5 +9,3 @@ const PreviousContent = () => {
     </section>
   );
 };
-
-export default PreviousContent;

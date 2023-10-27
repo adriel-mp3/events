@@ -1,9 +1,10 @@
 import React from "react";
-import PreviousContent from "../components/PreviousContent/PreviousContent";
+import { PreviousCards } from "../components/Cards/PreviousCards/index";
+import { previousCardsData } from '../utils/previousCardsData'
 const PreviousEvents = () => {
   return (
     <main className="container">
-      <PreviousContent />
+      <PreviousCards previousCardsData={previousCardsData} />
     </main>
   );
 };

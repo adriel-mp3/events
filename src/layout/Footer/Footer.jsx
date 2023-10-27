@@ -1,8 +1,8 @@
 import React from "react";
-import useMedia from "../../hooks/useMedia";
-import useToggle from "../../hooks/useToggle";
-import ModalForm from "../../components/Modal/ModalForm";
-import FooterFormButton from "../../components/Button/FooterFormButton";
+import { useMedia } from "../../hooks/useMedia";
+import { useToggle } from "../../hooks/useToggle";
+import { ModalForm } from "../../components/Modal/ModalTicket";
+import { FormButton } from "./partials/FormButton";
 
 const Footer = () => {
   const mobile = useMedia("(max-width: 1024px)");
@@ -27,7 +27,7 @@ const Footer = () => {
           <p className="2xl:text-3xl text-2xl-bold text-purple-100">
             Already bought the ticket? Check availability now!
           </p>
-          <FooterFormButton isOpen={modal} onClick={setModal} />
+          <FormButton isOpen={modal} onClick={setModal} />
         </div>
         <ModalForm isOpen={modal} />
       </footer>

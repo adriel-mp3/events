@@ -1,6 +1,6 @@
-import useToggle from "../../hooks/useToggle";
+import { useToggle } from "../../hooks/useToggle";
 
-import { Logo } from "../../components/Logo/Logo";
+import { Logo } from "../../components/Logo/index";
 import { ButtonMenu } from "./partials/ButtonMenu";
 import { NavMenu } from "./partials/NavMenu";
 
