@@ -2,7 +2,7 @@ import { NavLink, useLocation } from "react-router-dom";
 
 import { useToggle } from "../../../hooks/useToggle";
 
-import { Button } from "../../../components/Button/Button";
+import { Button } from "../../../components/Button";
 import { ModalLogin } from "../../../components/Modal/ModalLogin";
 
 export const NavMenu = ({ isMenuOpen, toggleMenu, links }) => {

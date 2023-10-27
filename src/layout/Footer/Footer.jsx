@@ -1,7 +1,7 @@
 import React from "react";
 import { useMedia } from "../../hooks/useMedia";
 import { useToggle } from "../../hooks/useToggle";
-import { ModalForm } from "../../components/Modal/ModalForm";
+import { ModalForm } from "../../components/Modal/ModalTicket";
 import { FormButton } from "./partials/FormButton";
 
 const Footer = () => {
