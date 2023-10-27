@@ -72,9 +72,9 @@ module.exports = {
         ],
       },
       backgroundImage: {
-        "hero-pattern": "url('./assets/images/background.jpg')",
-        arrow: "url('./src/assets/images/arrow-yellow.svg')",
-        play: "url('./src/assets/images/play.svg')",
+        "hero-pattern": "url('./assets/background.jpg')",
+        arrow: "url('./src/assets/arrow-yellow.svg')",
+        play: "url('./src/assets/play.svg')",
       },
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],

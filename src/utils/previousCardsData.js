@@ -1,7 +1,7 @@
-import product from "../assets/images/product.jpg";
-import science from "../assets/images/science.jpg";
-import hard from "../assets/images/hard.jpg";
-import networking from "../assets/images/networking.jpg";
+import product from "../assets/product.jpg";
+import science from "../assets/science.jpg";
+import hard from "../assets/hard.jpg";
+import networking from "../assets/networking.jpg";
 
 export const previousCardsData = [
   {

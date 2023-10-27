@@ -1,6 +1,6 @@
-import hobbies from "../assets/images/hobbies.svg";
-import location from "../assets/images/location.svg";
-import presentation from "../assets/images/presentation.svg";
+import hobbies from "../assets/hobbies.svg";
+import location from "../assets/location.svg";
+import presentation from "../assets/presentation.svg";
 
 export const aboutCardsData = [
   {

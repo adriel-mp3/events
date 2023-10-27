@@ -1,5 +1,5 @@
 import React from "react";
-import open from "../../../assets/images/modal-arrow.svg";
+import open from "../../../assets/modal-arrow.svg";
 
 export const FormButton = ({ isOpen, onClick }) => {
   return (

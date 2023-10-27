@@ -1,7 +1,7 @@
 import { Hero } from "../components/Hero/index";
 import { Thumb } from "../components/Thumb/index";
 
-import thumb from "../assets/images/thumb.jpg";
+import thumb from "../assets/thumb.jpg";
 
 const Home = () => {
 
