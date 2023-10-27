@@ -19,7 +19,7 @@ After installing the dependencies, start the application with the following comm
 <pre>npm run dev</pre>
 
 <div align="center">
-  <img align="center" src="./src/assets/preview/desktop-preview.jpg">
+  <img align="center" src=".github/desktop-preview.jpg">
 </div>
 
 ## Built With
