@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../Input/Input";
+import { Input } from "../Input/Input";
 import { Button } from "../Button/Button";
 
 export const ModalLogin = ({ modal, setModal }) => {

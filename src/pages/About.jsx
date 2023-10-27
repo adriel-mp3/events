@@ -1,7 +1,7 @@
-import useMedia from '../hooks/useMedia';
+import { useMedia } from '../hooks/useMedia';
 
-import { FeaturedContent } from "../components/FeaturedContent/FeaturedContent";
-import { AboutCards } from '../components/AboutCards';
+import { Hero } from "../components/Hero/index";
+import { AboutCards } from '../components/Cards/AboutCards/index';
 
 import { aboutCardsData } from '../utils/aboutCardsData';
 
@@ -11,7 +11,7 @@ const About = () => {
   return (
     <main className="container grid 2xl:grid-cols-2 2xl:justify-items-end items-center">
       <AboutCards aboutCardsData={aboutCardsData} />
-      {screen && <FeaturedContent />}
+      {screen && <Hero />}
     </main>
   );
 };

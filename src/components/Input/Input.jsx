@@ -1,9 +1,9 @@
 import React from "react";
 
-const Input = ({ placeholder, label, id, type }) => {
+export const Input = ({ placeholder, label, id, type }) => {
   return (
     <>
-      <label className={` ${label ? "text-gray" : "sr-only"}`}>
+      <label className={`${label ? "text-gray" : "sr-only"}`}>
         {label}
       </label>
       <input
@@ -15,5 +15,3 @@ const Input = ({ placeholder, label, id, type }) => {
     </>
   );
 };
-
-export default Input;
